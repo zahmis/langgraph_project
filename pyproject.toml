@@ -1,7 +1,7 @@
 [project]
 name = "langgraph-project"
 version = "0.1.0"
-description = "Add your description here"
+description = "LangGraph project with modern Python tools"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -12,3 +12,10 @@ dependencies = [
     "langsmith>=0.1.139",
     "tavily-python>=0.5.0",
 ]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+requires-python = ">=3.12"
